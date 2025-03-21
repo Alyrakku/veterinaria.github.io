@@ -133,6 +133,7 @@ html {
 #contact h2 {
   color: var(--primary-dark);
 }
+
 .contact-info-item {
   display: flex;
   align-items: center;
@@ -143,6 +144,25 @@ html {
   font-size: 1.5rem;
   color: var(--primary-blue);
   margin-right: 1rem;
+  width: 2rem; 
+  text-align: center; 
+  flex-shrink: 0; 
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-text h4 {
+  margin-bottom: 0.25rem;
+  line-height: 1.2; 
+}
+
+.contact-text p {
+  margin: 0;
+  line-height: 1.2; 
 }
 
 .social-icon {
